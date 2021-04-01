@@ -1,0 +1,20 @@
+nav {background-color: antiquewhite;}
+nav a {color: #7E9739;}
+nav a:hover {background-color: #9D571B;}
+nav {
+    padding: 10px;
+}
+nav {margin-bottom: 30px}
+body {background-color: beige;}
+
+/* Part 1 format */
+.clear {clear: both;}
+.quote {float: right;}
+.logo {width: 90px;}
+.info {float:left;}
+.part1{background-color:aliceblue; border-radius: 1em; margin:15px;}
+
+.info {margin: 10px;}
+
+/* Part 2 format */
+.part2{background-color:aliceblue; border-radius: 1em; margin:15px;}
