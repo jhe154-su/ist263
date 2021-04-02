@@ -25,7 +25,7 @@ body {background-color: beige;}
 .info {margin: 10px;}
 
 /* Part 2 format */
-footer {display: flex;}
+.contactinfo {display: flex;}
 .contact {flex-basis: 40%; order: 1;}
 .map {flex-basis: 60%; order: 2;}
 .contactinfo{background-color:aliceblue; border-radius: 1em; margin:15px;padding: 35px 25px 35px 25px;}
