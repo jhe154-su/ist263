@@ -12,9 +12,8 @@ body {background-color: beige;}
 .introduction {padding: 15px; margin: 1px;}
 
 /* Picture format */
-.picture {width: 400px;
-    padding: 20px 20px 20px 20px ;
-}
+.picture {width: 230px;
+margin-left: 20px;}
 
 /* Part 1 format */
 .clear {clear: both;}
