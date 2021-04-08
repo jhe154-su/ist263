@@ -1,0 +1,40 @@
+nav {background-color: antiquewhite;}
+nav a {color: #7E9739;}
+nav a:hover {background-color: #9D571B;}
+nav {
+    padding: 10px;
+}
+nav {margin-bottom: 30px}
+body {background-color: beige;}
+
+@media only screen and (max-width: 600px){
+        nav a {width: 100%; display: block; padding: 5px;}
+        span {display: none;}
+        img a {width: 100%;}
+}
+
+/* Part index format */
+.sentence {float: right;}
+.introduction {padding: 15px; margin: 1px;}
+img {max-width: 100%;}
+
+/* Picture format */
+img {width: 230px;
+margin-left: 20px;}
+
+/* Part 1 format */
+.clear {clear: both;}
+.logo {width: 90px;}
+.info {float:left;}
+.part1{background-color:aliceblue; border-radius: 1em; margin: 15px;padding: 15px;}
+
+.info {margin: 10px;}
+
+/* Part 2 format */
+.contactinfo {display: flex;}
+.contact {flex-basis: 40%; order: 1;}
+.map {flex-basis: 60%; order: 2;}
+.contactinfo {background-color:aliceblue; border-radius: 1em; margin:15px;padding: 35px 25px 35px 25px;}
+/* Part 1 & 2 format */
+.part1 .part2 {margin-top: 60px;}
+
