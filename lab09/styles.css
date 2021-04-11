@@ -7,19 +7,20 @@ nav {
 nav {margin-bottom: 30px}
 body {background-color: beige;}
 
+img a {max-width: 100%; width: 100%;flex-wrap:wrap;}
+
 @media only screen and (max-width: 600px){
         nav a {width: 100%; display: block; padding: 5px;}
         span {display: none;}
-        img a {width: 100%;}
 }
 
 /* Part index format */
 .sentence {float: right;}
 .introduction {padding: 15px; margin: 1px;}
-img {max-width: 100%;}
+.me {max-width: 100%;}
 
 /* Picture format */
-img {width: 230px;
+.me {width: 500px;
 margin-left: 20px;}
 
 /* Part 1 format */
