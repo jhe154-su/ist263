@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <mega charset = "utf-8">
+        <title>notes for unit 20</title>
+        <style>
+            #skip{
+                position:absolute ;
+                left: -999px;
+                background-color: white;
+                border: 1px solid black;
+            }
+            /* this position based on top left od viewpoint and pushes the skip link off screen*/
+            #skip:focus{
+                position: absolute;
+                left: 10px;
+            }
+            /* whe you tab to skip link it moves it back on the screen*/
+        </style>
+    </head>
+    <body>
+        <h1>Accessibility</h1>
+        <!--make sure you use h1 for main heading 
+        h2 for subheading
+        h3 for sub sub heading-->
+        <img src="../ist263/images/LinkedIn-Logos/LI-Logo.png" alt="Linkedin logo">
+        <!--nothinf in quotes means screen reader ignores
+        do not put image of or photo of-->
+        <a href="#maincontent" id="skip">Skip to Content</a>
+        <!-- pround sign says we are linking within the page to an elelment that has id of maincontent-->
+        <!-- id is something unique-->
+        <a href="http://www.google.com" tabindex="3">Google</a>
+        <a href="http://www.amazon.com" tabindex="2">Amazon</a>
+        <a href="http://www.ebay.com" tabindex="1">Ebay</a>
+        <!-- for complex layouts determine order of items through-->
+        <p>Actually, I know the screen reader before, and I kind of know how this could work for the blind people. However, just through the video, the screen reader could be so useful, because it allows the blind people to read or use the Internet to conduct a job or just for fun. Decades ago, being blind seems to be the end of the world, because you will not be able to any things. But now, under the help of the technology, the blind people are also able to conduct normal life. However, the screen reader is still difficult to use for me. The voice is so fast.</p>
+
+        <a id="maincontent"></a>
+        <p>Actually, I know the screen reader before, and I kind of know how this could work for the blind people. However, just through the video, the screen reader could be so useful, because it allows the blind people to read or use the Internet to conduct a job or just for fun. Decades ago, being blind seems to be the end of the world, because you will not be able to any things. But now, under the help of the technology, the blind people are also able to conduct normal life. However, the screen reader is still difficult to use for me. The voice is so fast.</p>
+    </body>
+
+</html>
