@@ -27,15 +27,18 @@ margin-left: 20px;}
 .clear {clear: both;}
 .logo {width: 90px;}
 .info {float:left;}
-.part1{background-color:aliceblue; border-radius: 1em; margin: 15px;padding: 15px;}
+.basiccontact{background-color:aliceblue; border-radius: 1em; margin: 15px;padding: 15px;}
 
 .info {margin: 10px;}
 
 /* Part 2 format */
 .contactinfo {display: flex;}
-.contact {flex-basis: 40%; order: 1;}
+.contactme {flex-basis: 40%; order: 1;}
 .map {flex-basis: 60%; order: 2;}
 .contactinfo {background-color:aliceblue; border-radius: 1em; margin:15px;padding: 35px 25px 35px 25px;}
 /* Part 1 & 2 format */
-.part1 .part2 {margin-top: 60px;}
+.basiccontact  {margin-top: 60px;}
 
+.introduction {font-size: 1em;}
+.basiccontact{font-size: 1em;}
+,.contactme {font-size: 1em;}
