@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-9">
+        <title>Participation</title>
+    </head>
+    <script>
+        
+        function blurfunction() {
+            alert ('you left this form element');
+            // document.getElementById("message").innerHTML = "you left this form element"
+        }
+
+    </script>
+
+    <body>
+        <form action="" method="POST">
+            <label for="first"> First </label>
+            <input type="text" name="first" id="first" onblur="blurfunction();"> 
+            <label for="last"> Last </label>
+            <input type="text" name="last" id="last">
+            <input type="submit">
+        </form>
+       <p>
+           Name:
+        </p>
+        <div id="message"></div> <!-- this is where I'm gonna bring up the message-->
+    </body>
+</html>

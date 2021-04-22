@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-9">
+        <title>Unit 11 Note</title>
+    </head>
+    <!-- vv script yag is for embedding java script in html-->>
+    <script>
+        alert('Hello World');
+        /*alert is my function, all function have parenthesis after, inside quotes with a message, semi colon  at end */
+    </script>
+
+    <body>
+        </p>
+        As you make plans for your Wellness Day, I also want to remind you to stay vigilant in adhering to the public health guidelines in place to safeguard our community. Even as more members of our campus community are vaccinated, it is still critically important to wear masks, maintain social distance and remain in the Central New York region. Please continue to be responsible community members. Your efforts have brought us this far—let’s keep it going!
+        </p>
+    </body>
+</html>
