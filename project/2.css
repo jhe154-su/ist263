@@ -1,8 +1,11 @@
-h1, .interviewfull, .interviewintro, .interviewcopy, .contactme {margin-right: 400px;
-    margin-left:400px;}
+.interviewfull, .interviewintro, .interviewcopy, .contactme {margin-right: 300px;
+    margin-left:300px;}
+h1 {margin-right: 300px;
+    margin-left:200px;}
+ 
 .generalpic {
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 300px;
+    margin-right: 300px;
     width: 650px;
 }
 .food {
@@ -10,8 +13,8 @@ h1, .interviewfull, .interviewintro, .interviewcopy, .contactme {margin-right: 4
     
     width: 650px;
 }
-.interviewintro {background-color:#FFD37A; border-radius: 1em; margin-right: 400px;
-    margin-left: 400px;padding-top: 3px; padding-bottom: 3px; padding-left: 10px; padding-left: 10px;
+.interviewintro {background-color:#FFD37A; border-radius: 1em; margin-right: 300px;
+    margin-left: 300px;padding-top: 3px; padding-bottom: 3px; padding-left: 10px; padding-left: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;}
 
@@ -19,8 +22,8 @@ h1, .interviewfull, .interviewintro, .interviewcopy, .contactme {margin-right: 4
 .interviewfull {font-size: 18px;
 }
 
-.contactme {background-color:#FFE4B2; border-radius: 1em; margin-right: 400px;
-    margin-left: 400px;padding-top: 3px; padding-bottom: 10px; padding-left: 10px; padding-left: 10px;
+.contactme {background-color:#FFE4B2; border-radius: 1em; margin-right: 300px;
+    margin-left: 300px;padding-top: 3px; padding-bottom: 10px; padding-left: 10px; padding-left: 10px;
     }
 
 nav {background-color: antiquewhite; margin-right: 200px;
