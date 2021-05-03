@@ -1,0 +1,15 @@
+.issuelist {margin: 100px; width: 500px; float: right;}
+h1 {margin-left: 200px; margin-right: 200px;}
+.issueintro,.end, .issuecopy{margin: 200px; font-size: 17px;}
+.AD1, .MD1, .PD1, .D1, .ED1 {text-align: center; font-family:serif; font-size: 18px;}
+.AD, .MD, .PD, .D, .ED {margin: 200px;}
+.AD, .MD, .PD, .D, .ED {background-color:aliceblue; border-radius: 1em; margin: 200px;padding: 15px;}
+
+nav {background-color: antiquewhite; margin-right: 200px;
+    margin-left: 200px;}
+nav a {color: #000066;}
+nav a:hover {background-color: #9D571B;}
+nav {
+    padding: 10px;
+}
+nav {margin-bottom: 30px}

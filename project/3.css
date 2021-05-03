@@ -1,0 +1,22 @@
+.introbarnes, .barnesbasic, .barnesinvole, .moreinfo, .barnescopy, .moreinfo {margin-right: 400px;
+    margin-left: 400px; font-size:18px;}
+.barnesdoor, .barnescounsel  {margin-right: 400px;
+    margin-left: 400px;}
+h1 {margin-right: 400px;
+    margin-left: 400px;}
+.barnesdoor {margin-right: 400px;
+    margin-left: 400px;
+    width: 650px;}
+.barnescounsel {margin-right: 400px;
+    margin-left: 400px;
+    width: 650px;}
+.service {text-align: center; font-family:serif; font-size: 18px;}
+
+nav {background-color: antiquewhite; margin-right: 200px;
+    margin-left: 200px;}
+nav a {color: #000066;}
+nav a:hover {background-color: #9D571B;}
+nav {
+    padding: 10px;
+}
+nav {margin-bottom: 30px}

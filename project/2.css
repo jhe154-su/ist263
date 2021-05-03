@@ -1,0 +1,33 @@
+h1, .interviewfull, .interviewintro, .interviewcopy, .contactme {margin-right: 400px;
+    margin-left:400px;}
+.generalpic {
+    margin-left: 400px;
+    margin-right: 400px;
+    width: 650px;
+}
+.food {
+    margin-right: 200px;
+    
+    width: 650px;
+}
+.interviewintro {background-color:#FFD37A; border-radius: 1em; margin-right: 400px;
+    margin-left: 400px;padding-top: 3px; padding-bottom: 3px; padding-left: 10px; padding-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;}
+
+
+.interviewfull {font-size: 18px;
+}
+
+.contactme {background-color:#FFE4B2; border-radius: 1em; margin-right: 400px;
+    margin-left: 400px;padding-top: 3px; padding-bottom: 10px; padding-left: 10px; padding-left: 10px;
+    }
+
+nav {background-color: antiquewhite; margin-right: 200px;
+    margin-left: 200px;}
+nav a {color: #000066;}
+nav a:hover {background-color: #9D571B;}
+nav {
+    padding: 10px;
+}
+nav {margin-bottom: 30px}
