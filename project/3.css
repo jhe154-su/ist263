@@ -1,14 +1,14 @@
-.introbarnes, .barnesbasic, .barnesinvole, .moreinfo, .barnescopy, .moreinfo {margin-right: 400px;
-    margin-left: 400px; font-size:18px;}
+.introbarnes, .barnesbasic, .barnesinvole, .moreinfo, .barnescopy, .moreinfo {margin-right: 300px;
+    margin-left: 300px; font-size:18px;}
 .barnesdoor, .barnescounsel  {margin-right: 400px;
     margin-left: 400px;}
-h1 {margin-right: 400px;
-    margin-left: 400px;}
-.barnesdoor {margin-right: 400px;
-    margin-left: 400px;
+h1 {margin-right: 200px;
+    margin-left: 200px;}
+.barnesdoor {margin-right: 300px;
+    margin-left: 300px;
     width: 650px;}
-.barnescounsel {margin-right: 400px;
-    margin-left: 400px;
+.barnescounsel {margin-right: 300px;
+    margin-left: 300px;
     width: 650px;}
 .service {text-align: center; font-family:serif; font-size: 18px;}
 
