@@ -1,5 +1,5 @@
 .issuelist {margin: 100px; width: 500px; float: right;}
-h1 {margin-left: 200px; margin-right: 200px;}
+h1 {margin-left: 200px; margin-right: 200px;font-family: 'Noto Serif', serif;}
 .issueintro,.end, .issuecopy{margin: 200px; font-size: 17px;}
 .AD1, .MD1, .PD1, .D1, .ED1 {text-align: center; font-family:serif; font-size: 18px;}
 .AD, .MD, .PD, .D, .ED {margin: 200px;}
