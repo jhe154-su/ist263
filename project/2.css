@@ -1,21 +1,21 @@
 .interviewfull, .interviewintro, .interviewcopy, .contactme {margin-right: 300px;
     margin-left:300px;}
-h1 {margin-right: 300px;
-    margin-left:200px;
+h1 {margin-right: 30px;
+    margin-left:30px;
     font-family: 'Noto Serif', serif;}
- 
-.generalpic {
-    margin-left: 300px;
-    margin-right: 300px;
-    width: 650px;
-}
+img a {max-width: 100%;} 
+.generalpic { width: 700px ;margin-left: 300px; margin-right: 300px;}
+
+
 .food {
     margin-right: 200px;
     
     width: 650px;
 }
-.interviewintro {background-color:#FFD37A; border-radius: 1em; margin-right: 300px;
-    margin-left: 300px;padding-top: 3px; padding-bottom: 3px; padding-left: 10px; padding-left: 10px;
+
+
+.interviewintro {background-color:#D5D5D5; border-radius: 1em; margin-right: 250px;
+    margin-left: 250px;padding-top: 3px; padding-bottom: 3px; padding-left: 10px; padding-left: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;}
 
@@ -23,15 +23,31 @@ h1 {margin-right: 300px;
 .interviewfull {font-size: 18px;
 }
 
-.contactme {background-color:#FFE4B2; border-radius: 1em; margin-right: 300px;
-    margin-left: 300px;padding-top: 3px; padding-bottom: 10px; padding-left: 10px; padding-left: 10px;
+.contactme {background-color:#D5D5D5; border-radius: 1em; margin-right: 200px;
+    margin-left: 200px;padding-top: 3px; padding-bottom: 10px; padding-left: 10px; padding-left: 10px;
     }
 
-nav {background-color: antiquewhite; margin-right: 200px;
-    margin-left: 200px;}
-nav a {color: #000066;}
-nav a:hover {background-color: #9D571B;}
-nav {
-    padding: 10px;
+body {background-color: #F6F6F6;}
+
+nav { 
+    font-size: 17px;
+    text-align: center;
+    background-color: black;
+    padding: 5px; 
+    
+    
+    
+    }
+nav a { font-style:inherit; 
+    color: white; background-color: black;padding: 5px; }
+nav a:hover {background-color:white; color: black}
+
+
+
+
+@media only screen and (max-width: 600px){
+    nav a {width: 100%; display: block; padding: 5px; float: left;}
+    .interviewfull, .interviewintro, .interviewcopy, .contactme {margin-right: 20px;
+        margin-left:20px;}
+    span {display: none;}
 }
-nav {margin-bottom: 30px}

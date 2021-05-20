@@ -1,7 +1,6 @@
 .introbarnes, .barnesbasic, .barnesinvole, .moreinfo, .barnescopy, .moreinfo {margin-right: 300px;
     margin-left: 300px; font-size:18px;}
-.barnesdoor, .barnescounsel  {margin-right: 400px;
-    margin-left: 400px;}
+.barnesdoor, .barnescounsel  {width: 700px ;max-width:100%; margin-left: auto; margin-right: auto;}
 h1 {margin-right: 200px;
     margin-left: 200px;
     font-family: 'Noto Serif', serif;}
@@ -13,11 +12,35 @@ h1 {margin-right: 200px;
     width: 650px;}
 .service {text-align: center; font-family:serif; font-size: 18px;}
 
-nav {background-color: antiquewhite; margin-right: 200px;
-    margin-left: 200px;}
-nav a {color: #000066;}
-nav a:hover {background-color: #9D571B;}
-nav {
-    padding: 10px;
+
+.staff {background-color:#D5D5D5; border-radius: 1em; padding: 15px; margin-bottom: 15px;}
+.peer {background-color:#D5D5D5; border-radius: 1em; padding: 15px;}
+.staff, .peer {display: ;}
+
+body {background-color: #F6F6F6;}
+
+nav { 
+    font-size: 17px;
+    text-align: center;
+    background-color: black;
+    padding: 5px; 
+    
+    
+    
+    }
+nav a { font-style:inherit; 
+    color: white; background-color: black;padding: 5px; }
+nav a:hover {background-color:white; color: black}
+
+
+
+
+@media only screen and (max-width: 600px){
+    nav a {width: 100%; display: block; padding: 5px; float: left;}
+    h1 {margin-right: 10px;
+        margin-left: 10px;
+        font-family: 'Noto Serif', serif;}
+    .introbarnes, .barnesbasic, .barnesinvole, .moreinfo, .barnescopy, .moreinfo {margin-right: 20px;
+        margin-left: 20px;}
+    span {display: none;}
 }
-nav {margin-bottom: 30px}

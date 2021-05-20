@@ -1,22 +1,34 @@
-.mentalhealth { width: 500px;max-width:100%; }
-.issueintro,.mentalhealth {display: flex;}
-.issueintro,.end {margin: 60px; font-size: 17px;}
-.AD1, .MD1, .PD1, .D1, .ED1 {text-align: center; font-family:serif; font-size: 18px;}
+.mentalhealth { width: 100vw;max-width:100%; }
 
-.AD, .MD, .PD, .D, .ED {background-color:aliceblue; border-radius: 1em; margin: 40px;padding: 15px;}
+.issueintro,.end {margin: 60px; font-size: 17px;}
+
+h1 {margin-right: 50px;
+    margin-left:50px;
+    font-family: 'Noto Serif', serif;}
+.AD1, .MD1, .PD1, .D1, .ED1 {text-align: center; font-family:serif; font-size: 18px; margin: 10px;}
+
+.AD, .MD, .PD, .D, .ED {background-color:#D5D5D5; border-radius: 1em; padding: 15px;}
+.ad, .md ,.pd, .d, .ed {width: 450px;}
+
+
+
 
 body {background-color: #F6F6F6;}
 
-nav { margin-right: 30px;
-    margin-left: 50px;
+nav { 
     font-size: 17px;
-    float: right;}
-nav a {color: black;}
-nav a:hover {background-color: #9D571B;}
-nav {
-    padding: 10px;
-}
-nav {margin-bottom: 20px}
+    text-align: center;
+    background-color: black;
+    padding: 5px; 
+    
+    
+    
+    }
+nav a { font-style:inherit; 
+    color: white; background-color: black;padding: 5px; }
+nav a:hover {background-color:white; color: black}
+
+
 
 
 @media only screen and (max-width: 600px){
