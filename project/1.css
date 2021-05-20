@@ -5,13 +5,16 @@
 h1 {margin-right: 50px;
     margin-left:50px;
     font-family: 'Noto Serif', serif;}
-.AD1, .MD1, .PD1, .D1, .ED1 {text-align: center; font-family:serif; font-size: 18px; margin: 10px;}
+.AD1, .MD1, .PD1, .D1, .ED1 {text-align: center; font-family:serif; font-size: 18px; margin: 60px;}
 
-.AD, .MD, .PD, .D, .ED {background-color:#D5D5D5; border-radius: 1em; padding: 15px;}
-.ad, .md ,.pd, .d, .ed {width: 450px;}
+.AD, .MD, .PD, .D, .ED {background-color:#D5D5D5; border-radius: 2em; padding: 15px;}
+.add, .pdd, .edd {margin-right: 20px;}
+.mdd, .dd {margin-left: 20px;}
+.ad, .md ,.pd, .d, .ed {width: 460px;}
 
+.AD, .MD, .PD, .D, .ED{display: flex; margin: 60px}
 
-
+.sentence {float: right;}
 
 body {background-color: #F6F6F6;}
 
@@ -20,8 +23,7 @@ nav {
     text-align: center;
     background-color: black;
     padding: 5px; 
-    
-    
+
     
     }
 nav a { font-style:inherit; 
@@ -33,6 +35,8 @@ nav a:hover {background-color:white; color: black}
 
 @media only screen and (max-width: 600px){
     nav a {width: 100%; display: block; padding: 5px; float: left;}
+    nav {background-color: #F6F6F6;}
+    .ad, .md ,.pd, .d, .ed {display: none;}
     span {display: none;}
 }
 

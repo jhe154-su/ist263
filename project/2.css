@@ -1,21 +1,26 @@
-.interviewfull, .interviewintro, .interviewcopy, .contactme {margin-right: 300px;
-    margin-left:300px;}
-h1 {margin-right: 30px;
-    margin-left:30px;
+.interviewfull, .interviewintro, .interviewcopy, .contactme {margin-right: 50px;
+    margin-left:50px;}
+h1 {margin-right: 50px;
+    margin-left:50px;
     font-family: 'Noto Serif', serif;}
-img a {max-width: 100%;} 
-.generalpic { width: 700px ;margin-left: 300px; margin-right: 300px;}
+
+.generalpic { max-width:100%;
+    width: 850px;
+    margin-left: 400px;
+    margin-right: 5px;}
 
 
 .food {
-    margin-right: 200px;
     
+    max-width:100%;
     width: 650px;
+    margin-left: 5px;
+    margin-right: 200px;
 }
 
-
-.interviewintro {background-color:#D5D5D5; border-radius: 1em; margin-right: 250px;
-    margin-left: 250px;padding-top: 3px; padding-bottom: 3px; padding-left: 10px; padding-left: 10px;
+.info {max-width:100%; width: 3500px;}
+.interviewintro {background-color:#D5D5D5; border-radius: 1em; margin-right: 50px;
+    margin-left: 50px;padding-top: 3px; padding-bottom: 3px; padding-left: 10px; padding-left: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;}
 
@@ -23,8 +28,8 @@ img a {max-width: 100%;}
 .interviewfull {font-size: 18px;
 }
 
-.contactme {background-color:#D5D5D5; border-radius: 1em; margin-right: 200px;
-    margin-left: 200px;padding-top: 3px; padding-bottom: 10px; padding-left: 10px; padding-left: 10px;
+.contactme {background-color:#D5D5D5; border-radius: 1em; margin-right: 1000px;
+    margin-left: 50px;padding-top: 3px; padding-bottom: 10px; padding-left: 10px; padding-left: 10px;
     }
 
 body {background-color: #F6F6F6;}
@@ -34,20 +39,28 @@ nav {
     text-align: center;
     background-color: black;
     padding: 5px; 
-    
-    
-    
     }
 nav a { font-style:inherit; 
     color: white; background-color: black;padding: 5px; }
 nav a:hover {background-color:white; color: black}
 
+.name {font-family: 'Slabo 27px', serif;}
+ .full {display: flex;}
 
 
 
-@media only screen and (max-width: 600px){
+
+ .sentence {float: right;}
+@media only screen and (max-width: 1500px){
     nav a {width: 100%; display: block; padding: 5px; float: left;}
+    nav {background-color: #F6F6F6;}
+   
     .interviewfull, .interviewintro, .interviewcopy, .contactme {margin-right: 20px;
         margin-left:20px;}
+        .generalpic, .food { margin: 0px;}
     span {display: none;}
+    h1 {margin-right: 20px;
+        margin-left:20px;
+        font-family: 'Noto Serif', serif;}
+        .full {display: block;}
 }

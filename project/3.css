@@ -1,22 +1,28 @@
-.introbarnes, .barnesbasic, .barnesinvole, .moreinfo, .barnescopy, .moreinfo {margin-right: 300px;
-    margin-left: 300px; font-size:18px;}
+.introbarnes, .barnesbasic, .barnesinvole, .moreinfo, .barnescopy, .moreinfo {margin-right: 200px;
+    margin-left: 200px; font-size:18px;}
 .barnesdoor, .barnescounsel  {width: 700px ;max-width:100%; margin-left: auto; margin-right: auto;}
 h1 {margin-right: 200px;
     margin-left: 200px;
     font-family: 'Noto Serif', serif;}
-.barnesdoor {margin-right: 300px;
-    margin-left: 300px;
-    width: 650px;}
-.barnescounsel {margin-right: 300px;
-    margin-left: 300px;
-    width: 650px;}
-.service {text-align: center; font-family:serif; font-size: 18px;}
+.barnesdoor {margin-left: auto;margin-right: auto;
+    width: 650px;
+    max-width: 100%;
+    display: block;}
+.barnescounsel {margin-left: auto;margin-right: auto;
+    width: 650px;
+    max-width: 100%;
+    display: block;}
+.service {text-align: center; font-family:serif; font-size: 18px;font-family: 'Abril Fatface', cursive;}
 
 
-.staff {background-color:#D5D5D5; border-radius: 1em; padding: 15px; margin-bottom: 15px;}
-.peer {background-color:#D5D5D5; border-radius: 1em; padding: 15px;}
-.staff, .peer {display: ;}
+.staff {background-color:#D5D5D5; border-radius: 1em; padding: 45px; margin-bottom: 15px;}
+.peer {background-color:#D5D5D5; border-radius: 1em; padding: 45px;}
 
+
+.hire {display: flex;}
+
+.staffp {width: 600px; max-width: 100%; display: block;margin-left: auto;margin-right: auto;}
+.stu {width: 600px; max-width: 100%; display: block;margin-left: auto;margin-right: auto;}
 body {background-color: #F6F6F6;}
 
 nav { 
@@ -33,13 +39,15 @@ nav a { font-style:inherit;
 nav a:hover {background-color:white; color: black}
 
 
-
+.sentence {float: right;}
 
 @media only screen and (max-width: 600px){
     nav a {width: 100%; display: block; padding: 5px; float: left;}
+    nav {background-color: #F6F6F6;}
     h1 {margin-right: 10px;
         margin-left: 10px;
         font-family: 'Noto Serif', serif;}
+        .barnesdoor, .barnescounsel {margin: 0px;}
     .introbarnes, .barnesbasic, .barnesinvole, .moreinfo, .barnescopy, .moreinfo {margin-right: 20px;
         margin-left: 20px;}
     span {display: none;}
