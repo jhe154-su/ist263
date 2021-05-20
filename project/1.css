@@ -1,15 +1,26 @@
-.issuelist {margin: 100px; width: 500px; float: right;}
-h1 {margin-left: 200px; margin-right: 200px;font-family: 'Noto Serif', serif;}
-.issueintro,.end, .issuecopy{margin: 200px; font-size: 17px;}
+.mentalhealth { width: 500px;max-width:100%; }
+.issueintro,.mentalhealth {display: flex;}
+.issueintro,.end {margin: 60px; font-size: 17px;}
 .AD1, .MD1, .PD1, .D1, .ED1 {text-align: center; font-family:serif; font-size: 18px;}
-.AD, .MD, .PD, .D, .ED {margin: 200px;}
-.AD, .MD, .PD, .D, .ED {background-color:aliceblue; border-radius: 1em; margin: 200px;padding: 15px;}
 
-nav {background-color: antiquewhite; margin-right: 200px;
-    margin-left: 200px;}
-nav a {color: #000066;}
+.AD, .MD, .PD, .D, .ED {background-color:aliceblue; border-radius: 1em; margin: 40px;padding: 15px;}
+
+body {background-color: #F6F6F6;}
+
+nav { margin-right: 30px;
+    margin-left: 50px;
+    font-size: 17px;
+    float: right;}
+nav a {color: black;}
 nav a:hover {background-color: #9D571B;}
 nav {
     padding: 10px;
 }
-nav {margin-bottom: 30px}
+nav {margin-bottom: 20px}
+
+
+@media only screen and (max-width: 600px){
+    nav a {width: 100%; display: block; padding: 5px; float: left;}
+    span {display: none;}
+}
+
