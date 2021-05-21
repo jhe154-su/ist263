@@ -23,6 +23,16 @@
                 background-color: white;
                 border: 1px solid black;}
     </style>
+        
+    <script>
+        function changeimage () {
+            document.getElementById("rollover").setAttribute('src', "https://user-images.githubusercontent.com/78922228/119089744-a1967a00-b9d8-11eb-918d-f3f2f79b3799.jpeg")
+        }
+        function changeback () {
+            document.getElementById("rollover").setAttribute('src', "https://user-images.githubusercontent.com/78922228/119091345-e91e0580-b9da-11eb-80d8-4c7a35793b3e.jpeg")
+        }
+      
+    </script>
     <body>
         <nav>
             <a href="../project/page1.html">MENTAL HEALTH ISSUE</a> <span>｜</span><span>｜</span><span>｜</span>
@@ -32,7 +42,7 @@
         
         <h1>Something You Need to Know about Barnes Center at Arch ar SU</h1>
         <br>
-        <a><img src="../project/barnes.jpeg" alt="barnes" class="barnesdoor"></a>
+        <a><img src="../project/barnes.jpeg" alt="barnes" class="barnesdoor"id="rollover" onmouseover="changeimage();" onmouseout="changeback();" ></a>
         <br>
         <br>
         <br>
@@ -40,15 +50,37 @@
 
         <main>
             <section class="introbarnes">
+            <div class="text1">
             Have you ever felt stressed in front of a desk in Bird at 3AM?<br><br>
+            Never??
+            </div>
+
+            <div class="box">
+            Click the picture above to get a view!
+            </div>
+
+            <div class="text2">
             Have you ever thought that you have to deal with all the depression alone?<br><br>
             While Syracuse University persists in constructing a qualified academic environment for those who dreamed, mental health is also emphasized within the university culture. <br><br>
-            In there, Barnes Center at The Arch always stands with and tries to provide all you need.<br>
+            In there, Barnes Center at The Arch always stands with and tries to provide all you need.<br><br><br>
+            </div>
             </section>
+            <hr>
             <br>   <br>
             <section class="barnesbasic">
             <h2>What can you do at Barnes Center?<br></h2>
             You can almost complete everything at Barnes Center! <br>   <br>
+            
+            <section class="image">
+    
+            <a><img src="../project/new/Barnes-Center-Landing-Page-1600x1067.jpeg" alt="barnescounsel" class="climb"></a>
+            
+            <a><img src="../project/new/Syracuse-University-David-Revette-Photography-4-2.jpeg" alt="barnescounsel" class="syr"></a>
+           
+            </section>
+
+
+            <br>
             Wanna do some exercise to relax yourself from a morning 8 AM class?<br>   <br>
             Sure! Barnes Center involves a comprehensive collection of fitness equipment -- Tennis, basketball, swimming and even mountain climbing!<br>   <br>
             As for the health concern, Barnes Center has a team of professional medical counselors to 24/7 support students’ physical and psychological health. <br>
@@ -72,13 +104,21 @@
             Substance Use<br>
             </div>
             <br>
-            Students could make appointment through: 315.443.8000<br><br>
+            <div class="tel">
+            Students could make appointment through: 315.443.8000<br>
+            </div>
             </section>
             
             <a><img src="../project/media/counselling_room.jpeg" alt="barnescounsel" class="barnescounsel"></a>
 
             <section class="barnesinvole">
+                
                 <br>   <br>
+                <div class="line">
+                <hr>
+            </div>
+                <br>   <br>
+                
             <h2>How can students get involved in Barnes Center?<br></h2>
             “Be Mindful, Be Active, Be Involved” is the slogan!<br>   <br>
             Meeting any schedules and diversity of the interest, Barnes Center provides multiple methods for students to engage in! The mission for this program is to encourage students to explore their own interest and balance their well-being between school work and mental health.<br>   <br>
@@ -95,14 +135,17 @@
                 <div class="staff">
                 <h3>Be a Staff:</h3><br>
                 <a><img src="../project/new/b.jpeg" alt="barnescounsel" class="staffp"></a><br>
+                <div class="stafftext">
                 Eligible Syracuse University students could become a part-time employee for various position, including personal trainer, volunteer, front desk attendant, special event staff and so on!<br>
                 <br>More information could be checked through <a href="https://syr.joinhandshake.com/"> Handshake! </a><br>
                 <br>
+            </div>
                 </div>
 
                 <div class="peer">
                 <h3>Be a Supporter for your Peer:</h3><br>
                 <a><img src="../project/new/bb.jpeg" alt="barnescounsel" class="stu"></a><br>
+                <div class="stutext">
                 As part-time employee opportunity for Barnes Center, Peer Educators program allow students to assist in conduct health and wellness education for their peers. There are three tracks for the programs: <br><br>
                 <strong>Be Wise </strong><br>
                     The education program concentrates on the proper use of alcohol. <br><br>
@@ -114,12 +157,16 @@
                 Don’t hesitate and <a href="https://ese.syr.edu/bewell/peer-educators/"> apply </a> for what you feel passionate about by today!<br>
                 <br>
                 </div>
+                </div>
                 </section>
             </section>
         
             </section>
             <br>   <br>
-            <section class="moreinfo">
+            <hr>
+                <br>   <br>
+                <section class="moreinfo">
+
             <h2>More Information:<br></h2>
             Think more about Barnes?<br>   <br>
             Here is a tour video tours every amazing detail for Barnes Center!<br><br>

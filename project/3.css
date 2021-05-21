@@ -14,10 +14,25 @@ h1 {margin-right: 200px;
     display: block;}
 .service {text-align: center; font-family:serif; font-size: 18px;font-family: 'Abril Fatface', cursive;}
 
+h2 {width:500px;background-color:#A09999; border-radius: 0em; padding: 15px;}
+hr {margin-right: 200px;
+    margin-left: 200px; }
+.line {margin-right: 0px;
+        margin-left: 0px; }
+
+
+image {display: flex;}
+.climb, .es, .roo, .syr {width: 600px; max-width: 100%;}
+
+.tel {margin: 60px; background-color:black; border-radius: 0.5em; padding: 15px; font-family: 'Playfair Display', serif; font-size: 20px; color: white; text-align: center;}
 
 .staff {background-color:#D5D5D5; border-radius: 1em; padding: 45px; margin-bottom: 15px;}
 .peer {background-color:#D5D5D5; border-radius: 1em; padding: 45px;}
 
+.stafftext, .stutext {text-align: center;}
+
+.box {margin: 60px; background-color:black; border-radius: 0.5em; padding: 15px; font-family: 'Playfair Display', serif; font-size: 20px; color: white; text-align: center;}
+.text1, .text2 {text-align: center;}
 
 .hire {display: flex;}
 
@@ -50,5 +65,6 @@ nav a:hover {background-color:white; color: black}
         .barnesdoor, .barnescounsel {margin: 0px;}
     .introbarnes, .barnesbasic, .barnesinvole, .moreinfo, .barnescopy, .moreinfo {margin-right: 20px;
         margin-left: 20px;}
+        .image {display: block;}
     span {display: none;}
 }
